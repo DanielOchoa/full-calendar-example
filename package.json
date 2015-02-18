@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "live-server"
+  },
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "fullcalendar": "github:arshaw/fullcalendar@^2.2.7",
+      "jquery": "npm:jquery@^2.1.3",
+      "jsonp": "npm:jsonp@^0.1.0",
+      "moment": "^2.9.0"
+    }
+  },
+  "devDependencies": {
+    "live-server": "^0.6.3"
+  }
+}

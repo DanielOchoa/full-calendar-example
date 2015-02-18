@@ -1,0 +1,47 @@
+{
+  "name": "jsonp",
+  "description": "A sane JSONP implementation.",
+  "version": "0.1.0",
+  "component": {
+    "scripts": {
+      "jsonp": "jsonp.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LearnBoost/jsonp.git"
+  },
+  "gitHead": "4a69f77f76154984c48a2c782fa136622e74aeab",
+  "bugs": {
+    "url": "https://github.com/LearnBoost/jsonp/issues"
+  },
+  "homepage": "https://github.com/LearnBoost/jsonp",
+  "_id": "jsonp@0.1.0",
+  "scripts": {},
+  "_shasum": "6fb29292874438f35103440724b1f430711cd346",
+  "_from": ".",
+  "_npmVersion": "2.0.0",
+  "_npmUser": {
+    "name": "rauchg",
+    "email": "rauchg@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "rauchg",
+      "email": "rauchg@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "6fb29292874438f35103440724b1f430711cd346",
+    "tarball": "http://registry.npmjs.org/jsonp/-/jsonp-0.1.0.tgz"
+  },
+  "jspm": {},
+  "registry": "npm",
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "debug": "debug@*"
+  }
+}
