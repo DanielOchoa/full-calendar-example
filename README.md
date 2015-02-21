@@ -7,6 +7,6 @@
 - `jspm install`
 - `npm start`
 
-## To Run build (compiled js) version:
+## To Run build (minified and ready to go) version:
 
 - open build.html in browser.
