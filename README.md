@@ -3,6 +3,7 @@
 ## Install instructions (dev mode):
 
 - `npm install jspm -g`
+- `npm install`
 - `jspm install`
 - `npm start`
 
