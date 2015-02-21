@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+}
+
+.workout-list {
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.workout-item {
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 5px;
+}
+
+.left-content {
+  width: 19%;
+  float: left;
+}
+
+.right-content {
+  float: right;
+  width: 80%;
+}
+
+/* tooltip styles */
+
+.tooltip {
+  border: 1px solid black;
+  padding: 10px;
+  display: none;
+  z-index: 999;
+  background: white;
+}

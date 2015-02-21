@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Workout Calendar</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="jspm_packages/github/arshaw/fullcalendar@2.2.7/fullcalendar.min.css">
+  </head>
+  <body>
+    <h1>Workout Calendar</h1>
+  </body>
+
+  <div id="main">
+    <ul class="list-items">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ul>
+    <div class="jquery-calendar"></div>
+  </div>
+
+  <script src="jspm_packages/github/components/jquery@2.1.3/jquery.min.js"></script>
+  <script src="jspm_packages/github/moment/moment@2.9.0/moment.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+  <script src="jspm_packages/github/arshaw/fullcalendar@2.2.7/fullcalendar.min.js"></script>
+  <script>
+$('.jquery-calendar').fullCalendar({
+  editable: true,
+  firstDay: 1,
+  droppable: true,
+  drop: function(date) {
+    console.log(date);
+  }
+});
+$('.list-items li').draggable({
+  zIndex: 999,
+  revert: true,
+  revertDuration: 0
+})
+$('.list-items li').each(function(item) {
+  $(item).data('event', {
+    title: $(this).text(),
+    stick: true
+  });
+});
+  </script>
+</html>
+</html>
